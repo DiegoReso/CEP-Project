@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <form id="formulario" method="get" action="">
+    <div id="wrapper">
+      <h2>Pesquisa Cep</h2>
+      <label>Cep:</label><br>
+      <input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
+      onblur="pesquisacep(this.value);"> <span class="hide" >CEP INVÁLIDO</span> <br>
+      <label>Rua:</label><br>
+      <input name="rua" type="text" id="rua" size="60" ><br>
+      <label>Bairro:</label><br>
+      <input name="bairro" type="text" id="bairro" size="40" /><br>
+      <label>Cidade</label> <br>
+      <input name="cidade" type="text" id="cidade" size="40" /><br>
+      <label>Estado:</label><br>
+      <input name="uf" type="text" id="uf" size="2"><br>
+    </div>
+  </form>
+
+
+  <script src="js/script.js"></script>
+</body>
+</html>

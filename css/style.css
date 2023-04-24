@@ -1,0 +1,57 @@
+body{
+  background-color: rgb(194, 181, 207);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url("../imgmap.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+
+#formulario{
+  border-radius: 5px;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  width: 700px;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.671);
+}
+
+#wrapper{
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+
+}
+
+
+input{
+  border: none;
+  color: white;
+  background-color: rgb(157, 157, 197);
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+
+input:focus{
+  outline: none;
+}
+
+.hide{
+  
+  display:none;
+}
+
+.visible{
+  border-radius: 5px;
+  padding: 4px;
+  background-color: rgb(185, 47, 47);
+  color: white;
+  display: inline-block;
+}
